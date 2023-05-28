@@ -1,0 +1,62 @@
+.photo-card{
+    max-width: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+gap: 20px;
+
+
+}
+
+.search-form{
+    font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        color: var(--white-color);
+        display: flex;
+        background: pink;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 32px;
+        margin: auto;
+        border: none;
+}
+
+.gallery{
+ border: 2px solid pink;
+}
+
+.search-btn{
+        font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            display: flex;
+           
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            flex-direction: row;
+            align-items: flex-start;
+         margin-left: 10px;
+            border: none;
+}
+
+.load-more{
+    font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        display: flex;
+    background: pink;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: auto;
+        border: none;
+}
