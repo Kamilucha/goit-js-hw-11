@@ -59,16 +59,16 @@ function createMarkupCard(data) {
             <img src="${img.webformatURL}" alt="${img.tags}" loading="lazy" width="300"/>
             <div class="info">
                 <p class="info-item">
-                    <b>Likes</b> ${img.likes}
+                    <b>Likes:</b> ${img.likes}
                 </p>
                 <p class="info-item">
-                    <b>Views</b> ${img.views}
+                    <b>Views:</b> ${img.views}
                 </p>
                 <p class="info-item">
-                    <b>Comments</b> ${img.comments}
+                    <b>Comments:</b> ${img.comments}
                 </p>
                 <p class="info-item">
-                    <b>Downloads</b> ${img.downloads}
+                    <b>Downloads:</b> ${img.downloads}
                 </p>
             </div>
         </div>`;
@@ -89,10 +89,7 @@ function onLoadMore() {
         }); 
 }
 
-// доброго вечора або ранку,
-//     може ви то прочитаєте, то знайте, шо я дуже стралась зробити додаткові завдання.
-//     Старатимусь ше, поки є час, але мені це якось настільки важко для розуміння,
-//     що я відчула себе тупою.Тому прошу пробачення, якшо там багато помилок))
+
 
 
 
